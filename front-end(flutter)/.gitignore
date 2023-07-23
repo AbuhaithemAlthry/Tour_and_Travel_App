@@ -30,7 +30,6 @@ migrate_working_dir/
 .packages
 .pub-cache/
 .pub/
-/build/
 
 # Symbolication related
 app.*.symbols
@@ -38,7 +37,17 @@ app.*.symbols
 # Obfuscation related
 app.*.map.json
 
-# Android Studio will place build artifacts here
-/android/app/debug
-/android/app/profile
-/android/app/release
+# Android Studio and Gradle will place build artifacts here
+/android/
+.gradle/
+/build/
+
+# Xcode and CocoaPods will place build artifacts here
+/ios/
+Pods/
+*.xcworkspace
+*.xcuserstate
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
