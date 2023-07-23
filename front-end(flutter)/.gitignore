@@ -51,3 +51,15 @@ Pods/
 *.mode1v3
 *.mode2v3
 *.perspectivev3
+
+# Ignore build artifacts generated for Linux
+/linux/
+
+# Ignore build artifacts generated for macOS
+/macos/
+
+# Ignore build artifacts generated for Windows
+/windows/
+
+# Ignore build artifacts generated for Windows
+/web/
